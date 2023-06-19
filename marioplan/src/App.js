@@ -1,13 +1,9 @@
-import { Routes } from "react-router-dom";
+import NavBar from "./components/layout/nav";
 
-function App() {
-  return (
-      <Routes>
-          <div className="App">
-            <h1>Mario plan</h1>
-          </div>
-      </Routes>
-  );
-}
+const App = () => (
+  <>
+    <NavBar/>
+  </>
+);
 
 export default App;
